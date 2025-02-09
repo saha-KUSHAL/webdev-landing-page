@@ -1,0 +1,18 @@
+.clients{
+    text-align: center;
+}
+.clients h2{
+    font-weight: 600;
+    font-size:36px;
+    line-height: 44px;
+    margin: 0;
+}
+.clients p{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.clients .logos{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 25px;
+}

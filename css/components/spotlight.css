@@ -1,0 +1,11 @@
+.spotlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.spotlight--img{
+    padding-block: 52px;
+}
+.spotlight--text{
+    padding-block: 82.5px;
+    max-width: 70ch;
+}

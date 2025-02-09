@@ -1,0 +1,35 @@
+.hero{
+    background-color: var(--color-neutral-silver);
+}
+.hero .wrapper-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 66.82px;
+}
+.hero__text h1{
+    font-weight: 600;
+    font-size: 44.55px;
+    line-height: 52.9px;
+    margin-bottom: 16px;
+}
+.hero__text .highlight{
+    color: var(--color-primary);
+}
+.hero .dots{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 16px;
+}
+
+.hero .dots .dot{
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    opacity: 50%;
+}
+.hero .dots .dot.active{
+    opacity: 100%;
+}

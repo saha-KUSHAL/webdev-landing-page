@@ -1,0 +1,38 @@
+.header{
+    background-color: var(--color-neutral-silver);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar .logo{
+    width: 154.49px;
+    height: 24px;
+    margin-block: 30px;
+    margin-left: 105px;
+}
+.navbar .navigation{
+    display: flex;
+    gap: 50px;
+}
+.navigation a{
+    color: var(--color-neutral-black);
+    line-height: 24px;
+    font-size: 1rem;
+}
+
+.navigation a:hover{
+    color: var(--color-primary);
+    font-weight: 500;
+}
+.navbar .auth-buttons{
+    display: flex;
+    gap: 14px;
+    margin-right: 120px;
+}
+.auth-buttons .login{
+    color: var(--color-primary);
+    background-color: rgba(255, 255, 255, 0);
+}
